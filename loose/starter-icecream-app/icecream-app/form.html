@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ice Cream Order</title>
+</head>
+<body>
+	<form id="orderForm" name="orderForm" method="post" action="/icecream-app/home">
+		<h1>Order Ice Cream!</h1>
+		<h2>Cup or Cone?</h2>
+		<input type="radio" id="cup" name="cupOrCone" value="cup">
+		<label for="cup">Cup</label>
+		
+		<input type="radio" id="cone" name="cupOrCone" value="cone">
+		<label for="cone">Cone</label>
+		
+		<h2>Size?</h2>
+		<input type="radio" id="small" name="size" value="small">
+		<label for="small">Small</label>
+		
+		<input type="radio" id="medium" name="size" value="medium">
+		<label for="medium">Medium</label>
+		
+		<input type="radio" id="large" name="size" value="large">
+		<label for="large">Large</label>
+		
+		<h2>Flavor?</h2>
+		<select id="flavor" name="flavor">
+		  <option value="vanilla">Vanilla</option>
+		  <option value="chocolate">Chocolate</option>
+		  <option value="Strawberry">Strawberry</option>
+		  <option value="butterPecan">Butter Pecan</option>
+		</select>
+		
+		<input type="submit" value="Order">
+	</form>
+		
+</body>
+</html>
